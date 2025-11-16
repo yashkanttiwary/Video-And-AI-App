@@ -221,7 +221,7 @@ export default function VideoPlayer({
           <div className="videoControls">
             <div className="videoScrubber">
               <input
-                style={{'--pct': `${currentPercent}%`}}
+                style={{'--pct': `${currentPercent}%`} as React.CSSProperties}
                 type="range"
                 min="0"
                 max="1"
